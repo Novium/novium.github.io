@@ -1,0 +1,167 @@
+/*!
+ * "Gate" by Alexander Troshin
+ * Copyright 2014 Alexander Troshin
+ * Licensed under MIT (LICENSE.md)
+ */
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+
+/*
+    Title
+*/
+
+.title {
+    color: rgb(255, 170, 0);
+    text-shadow: 0 0 20px rgba(245, 160, 0, 0.5);
+    text-align: center;
+}
+
+b {
+	color: rgb(255, 170, 0);
+}
+
+.about {
+    font-size: 16px;
+    background: rgb(45, 45, 45);
+    padding: 5px 5px 5px 5px;
+    border-radius: 1px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.about em {
+    font-size: 12px;
+}
+
+#twitter-widget-0 {
+    width: 100% !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 1px !important;
+}
+
+.contact {
+    font-size: 14px;
+    background: rgb(45, 45, 45);
+    padding: 5px 5px 5px 5px;
+    border-radius: 1px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.contact .row {
+    text-align: center;
+}
+
+.fa {
+    color: rgb(250, 250, 250);
+    transition: ease .3s;
+
+    text-shadow: 0 0 5px rgba(190, 190, 190, 0.8);
+
+    width: 100%;
+    height: 100%;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.fa:hover {
+    //-webkit-transform: rotate(-360deg);
+    //transform: rotate(-360deg);
+
+    -webkit-animation: rattle .1s 2;
+}
+
+.fa-skype:hover {
+    color: rgb(18, 165, 244);
+    text-shadow: 0 0 5px rgb(18, 165, 244);
+}
+
+.fa-twitter:hover {
+    color: rgb(85, 172, 238);
+    text-shadow: 0 0 5px rgb(85, 172, 238);
+}
+
+.fa-google-plus:hover {
+    color: #dd4b39;
+    text-shadow: 0 0 5px #dd4b39;
+}
+
+.contact b {
+    font-size: 10px;
+}
+
+.contact h3 {
+    font-size: 10px;
+    line-height: 11px;
+    margin-bottom: 0px;
+}
+
+.contact a {
+    color: white;
+}
+
+copyright {
+    opacity: 0.1;
+}
+
+.center {
+    text-align: center;
+}
+
+.modal {
+    color: black;
+}
+
+.additional {
+    font-size: 14px;
+    background: rgb(45, 45, 45);
+    padding: 5px 5px 5px 5px;
+    border-radius: 1px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.additional b {
+    font-size: 10px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links {
+    font-size: 10px;
+    opacity: 0.3;
+    margin-left: 2px;
+}
+
+::selection {
+	background: #FFBB33;
+}
+
+::-moz-selection {
+	background: #FFBB33; /* Firefox */
+}
+    
+@-webkit-keyframes rattle {
+    0% {
+        -webkit-transform: translateX(-2px) translateY(-1px);
+    }
+  
+    100% {
+        -webkit-transform: translateX(2px) translateY(-1px);
+    }
+}
+
+.add {
+    font-size: 9px;
+    opacity: 0.7;
+}
