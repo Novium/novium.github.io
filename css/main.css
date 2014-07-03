@@ -24,16 +24,29 @@ b {
 }
 
 .about {
-    font-size: 16px;
+    font-size: 12px;
     background: rgb(45, 45, 45);
     padding: 5px 5px 5px 5px;
     border-radius: 1px;
+    white-space: pre;
+    word-wrap:break-word;
 
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .about em {
     font-size: 12px;
+}
+
+.about x-h1 {
+  display: inline-block;
+
+  width: 100%;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-bottom: 1px dashed grey;
 }
 
 #twitter-widget-0 {
