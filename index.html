@@ -12,165 +12,70 @@
 
     <title>Alexander Troshin</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.9/wing.min.css" integrity="sha256-UTUdkh+mJUfPn/HYU29jLxo3qv9LvhUS3H/9T4jRlyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js" integrity="sha256-tlizgIWWN/brco/5OCRRAnRqO0DQS7qKDJDW6IhwJQA=" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="load">
+      <div class="line">Welcome to novium.pw boot.</div>
+      <div class="line"><span class="ok">[  OK  ]</span> Reached target Remote File systems</div>
+      <div class="line"><span class="ok">[  OK  ]</span> Listening on Syslog Socket</div>
+      <div class="line"><span class="warn">[ Warn ]</span> Not yet a part of the React-ifying of the web</div>
+<!-- // TODO
+         parse_bootparam: Ignoring tag 0x1004
+   lx60 platform_init(bootparams:d5f50000)
+   Linux version 2.6.29-rc7 (pdelaney@pdelaney_fc5.hq.tensilica.com) (gcc version 4.2.1) #201 SMP Tue Nov 17 23:49:39 PST 2009
+   lx60 platform_setup(cmdline[0]:'console=ttyS0,38400 ip=192.168.11.105:192.168.11.55:192.168.11.1:255.255.255.0:"HiFi-2 Demo" root=/dev/nfs rw nfsroot=192.168.11.55:/exports/LINUX_ROOT.HiFi-2 debug coredump_filter=0xff')
+   smp_init_cpus: Core Count = 3
+   smp_init_cpus: Core Id = 9320
+   On node 0 totalpages: 24576
+   free_area_init_node: node 0, pgdat d0196540, node_mem_map d01fa000
+     Normal zone: 216 pages used for memmap
+     Normal zone: 24360 pages, LIFO batch:3
+   smp_prepare_boot_cpu:
+   Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 24360
+   Kernel command line: console=ttyS0,38400 ip=192.168.11.105:192.168.11.55:192.168.11.1:255.255.255.0:"HiFi-2 Demo" root=/dev/nfs rw nfsroot=192.168.11.55:/exports/LINUX_ROOT.HiFi-2 debug coredump_filter=0xff
+   trap_init 0
+   PID hash table entries: 512 (order: 9, 2048 bytes)
+   time_init: Platform Calibrating CPU frequency
+   time_init: ccount_per_jiffy:416777 [41.67 MHz], nsec_per_ccount:23
+   Console: colour dummy device 80x25
+   console [ttyS0] enabled
+   Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+   Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+   Memory: 95196k/98304k available (1229k kernel code, 3040k reserved, 28k data, 72k init 0k highmem)
+   Calibrating delay loop... 41.26 BogoMIPS (lpj=206336)
+   Mount-cache hash table entries: 512
+   cpu 1 fffd
+   secondary_trap_init 1
+   Calibrating delay loop... 41.67 BogoMIPS (lpj=208384)
+   secondary_irq_init: set cached_irq_mask and enable interrupts))
+   secondary_time_init()
+   secondary_irq_enable(intrnum:6): cpu:1, INTENABLE:7c
+   secondary_irq_enable(intrnum:0): cpu:1, INTENABLE:7d
+   cpu 2 fff9
+   secondary_trap_init 2
+   Calibrating delay loop... 41.57 BogoMIPS (lpj=207872)
+   secondary_irq_init: set cached_irq_mask and enable interrupts))
+   secondary_time_init()
+   secondary_irq_enable(intrnum:6): cpu:2, INTENABLE:7c
+   secondary_irq_enable(intrnum:0): cpu:2, INTENABLE:7d
+   Brought up 3 CPUs
+   smp_cpus_done:
+   net_namespace: 304 bytes
+   NET: Registered protocol family 16
+   lx60_init()
+   bio: create slab <bio-0> at 0
+   NET: Registered protocol family 2
+   IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+   TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+   TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+   TCP: Hash tables configured (established 4096 bind 4096)
 
-    <!--[if IE]>
-        <h1>Unsupported browser, please update or install Google Chrome/Mozilla Firefox</h1>
-        <h2>Using an outdated browser can be dangerous as the internet is filled with viruses and similar stuff.</h2>
-    <!--<![endif]-->
-
-    <div class="container">
-
-    <h1 class="title" id="title">[insert catchy title]</h1>
-
-	<div class="row">
-		<div class="col-sm-4 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-            <div class="about">
-<x-h1>.whoami</x-h1>
-My name is Alexander, I code and play games.<br>That's pretty much everything.
-
-<x-h1>.currentlyPlaying</x-h1>
-<b>World of Warcraft</b>
-// todo
-.gear up pvp and pve ːccskullː
-.lvl 90 on my lvl 85 horde ch
-.get achievements
-.collect moar pets
-<b>.find someone nice to play with</b>
-
-<x-h1>.listeningTo</x-h1>
-Linkin Park
-Green Day
-Blink-182
-Ghost Town
-Avenged Sevenfold
-Falling In Reverse
-Five Finger Death Punch
-
-<x-h1>.build</x-h1>
-<b>.mobo</b> Gigabyte P8Z77-D3H
-<b>.cpu</b> Intel i7 3770k
-<b>.gpu</b> nvidia GTX780
-<b>.ram</b> G.Skill TridentX 32GB 2400MHz CL10
-<b>.ssd</b> Corsair Force GT3 120GB
-warning: it's ugly, really ugly, except the GTX780
-            </div>
-
-            <div class="contact">
-                <div class="row">
-                    <div class="col-xs-2">
-                        <a href="mailto:alexander@troshin.eu"><i class="fa fa-envelope fa-1x"></i></a>
-                    </div>
-                    <div class="col-xs-2">
-                        <a data-toggle="modal" data-target="#skype"><i class="fa fa-skype fa-1x"></i></a>
-                    </div>
-                    <div class="col-xs-2">
-                        <a href="http://steamcommunity.com/id/Novium"><i class="fa fa-steam fa-1x"></i></a>
-                    </div>
-                    <div class="col-xs-2">
-                        <a href="https://twitter.com/Noviium"><i class="fa fa-twitter fa-1x"></i></a>
-                    </div>
-                    <div class="col-xs-2">
-                        <a href="https://github.com/Novium"><i class="fa fa-github fa-1x"></i></a>
-                    </div>
-                    <div class="col-xs-2">
-                        <a href="https://plus.google.com/u/0/115069004040398693933"><i class="fa fa-google-plus fa-1x"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="additional">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="links">A few links</div>
-                        <a href="https://robertsspaceindustries.com/citizens/novium"><b>StarCitizen</b></a>
-                        |
-                        <a href="https://robertsspaceindustries.com/orgs/TEST"><b>Test Squadron</b></a>
-                    </div>
-                </div>
-            </div>
-
-            <a data-toggle="modal" data-target="#">
-              <div class="workshop">
-                workshop
-              </div>
-            </a>
-        </div>
-
-        <div class="col-sm-4 col-xs-12 col-xs-offset-0 col-sm-offset-0">
-<a class="twitter-timeline" href="https://twitter.com/Noviium" data-widget-id="470227788054536192">Tweets av @Noviium</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
-
-        </div>
-	</div>
-
-    <div class="row">
-        <div class="col-sm-12 center">
-            <copyright>&copy; 2014 Alexander Troshin | Version Infinity</copyright>
-        </div>
+   -->
     </div>
-
+    
+    <div class="main">
     </div>
-
-<div class="modal fade" id="skype" tabindex="-1" role="dialog" aria-labelledby="Skype" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-body">
-        Skype username: elmoo321 <br><br> <div class="center"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="soon" tabindex="-1" role="dialog" aria-labelledby="Coming Soon" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-body">
-        Coming Soon! <br><br> <div class="center"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Font -->
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
-
-    <!-- animate.css -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" rel="stylesheet" type="text/css">
-
-    <link href="css/main.css" rel="stylesheet">
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	  <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
-
-	  <script>
-       $(function() {
-           FastClick.attach(document.body);
-           jQuery("#title").fitText(1.2);
-        });
-	  </script>
-  </body>
-</html>
